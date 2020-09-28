@@ -24,4 +24,4 @@ class MyModel:
 
   def post_process(self, raw_output):
     time.sleep(randrange(1, 4))
-    return [{ label: 'barley' },{ label: 'barley' },{ label: 'barley' },{ label: 'barley' }]
+    return [{ 'label': 'barley' },{ 'label': 'barley' },{ 'label': 'barley' },{ 'label': 'barley' }]
