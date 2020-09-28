@@ -8,6 +8,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.utils import get_project_root, get_path
 
 def receive_model_input():
+    # Load dataset
     return pd.read_csv(get_path('\\bin\dataset.csv'))
 
 class ModelExample(object):
